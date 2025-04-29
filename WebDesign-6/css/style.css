@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    color: #333;
+}
+
+a {
+    text-decoration: none; display: block;
+}
+
+body {
+    min-width: 1200px;
+    height: 700px;
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    background-color: #94ff8b;
+}
+
+.top {
+    width: 1200px;
+    height: 100px;
+}
+
+.logo1 {
+    width: 200px;
+    height: 100px;
+    background-color: #4bf196;
+    float: left;
+}
+
+.menu {
+    width: 1000px;
+    height: 100px;
+    background-color: #94ff8b;
+    float: left;
+    position: relative;
+}
+
+.bgmenu {
+    width: 1200px;
+    height: 160px;
+    background-color: rgb(119, 175, 240);
+    position: absolute;
+    top: 100px;
+    left: -200px;
+    display: none;
+}
+
+.main {
+    position: absolute;
+    top: 50px;
+    left: 380px;
+}
+
+.main>li {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(119, 236, 240);
+    float: left;
+}
+
+.sub>li {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(119, 175, 240);
+    float: left;
+}
+
+.main>li:hover >a {
+    color: #fff; background-color: darkblue;
+}
+
+.sub>li:hover >a {
+    color: #fff; background-color: darkcyan;
+}
+
+.sub {
+    display: none;
+}
+
+.img_s {
+    width: 1200px;
+    height: 300px;
+    background-color: goldenrod;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+}
+
+.no {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(209, 145, 247);
+    float: left;
+}
+
+.gal {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(209, 145, 247);
+    float: left;
+}
+
+.sc {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(209, 145, 247);
+    float: left;
+}
+
+footer {
+    width: 100%;
+    background-color: #94ff8b;
+}
+
+.bottom {
+    width: 1200px;
+    height: 100px;
+}
+
+.copy {
+    width: 1000px;
+    height: 100px;
+    background-color: greenyellow;
+    float: left;
+}
+
+.bottom_right {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.sns {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(116, 178, 236);
+}
+
+.fs {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(116, 178, 236);
+}
