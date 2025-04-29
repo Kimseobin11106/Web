@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    color: #333;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    width: 1200px;
+    height: 650px;
+    background-color: #fff;
+}
+
+.top {
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+
+.body_right {
+    width: 1000px;
+    height: 650px;
+    float: left;
+}
+
+.logo1  {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.menu {
+    width: 200px;
+    height: 550px;
+    background-color: cadetblue;
+}
+
+.main>li {
+    position: relative;
+}
+
+.main>li>a {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #15c1ad;
+    text-align: center;
+}
+
+.sub>li>a {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #1af60e;
+    text-align: center;
+}
+
+.sub {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 200px;
+    height: 300px;
+}   
+
+.main>li:hover >a {
+    background-color: darkcyan; color: #fff;
+}
+
+.sub>li:hover >a {
+    background-color: darkblue; color: #fff;
+}
+
+.img_slide {
+    width: 1200px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+}
+
+.notice {
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.tab {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #389dfc;
+}
+
+.notice ul {
+    width: 380px;
+    height: 140px;
+    margin: 10px;
+    background-color: #5bffc8;
+}
+
+.notice li {
+    width: 380px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.banner {
+    width: 400px;
+    height: 200px;
+    background-color: violet;
+    float: left;
+}
+
+.sc {
+    width: 400px;
+    height: 200px;
+    background-color: purple;
+    float: left;
+}
+
+.bottom {
+    width: 1200px;
+    height: 150px;
+}
+
+.logo2 {
+    width: 200px;
+    height: 150px;
+    background-color: burlywood;
+    float: left;
+}
+
+.copy {
+    width: 800px;
+    height: 150px;
+    background-color: orange;
+    float: left;
+}
+
+.sns {
+    width: 200px;
+    height: 150px;
+    background-color: lavenderblush;
+    float: left;
+}
+
+.popup {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: #4af144;
+    top: 100px;
+    left: 600px;
+    display: none;
+}
+
+.p_title {
+    width: 300px;
+    height: 50px;
+}
+
+.p_body {
+    width: 300px;
+    height: 200px;
+}
+
+.p_bottom {
+    width: 300px;
+    height: 50px;
+    text-align: right;
+}
