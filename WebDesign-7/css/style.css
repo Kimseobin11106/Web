@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    min-width: 1200px;
+    height: 700px;
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+
+.top {
+    width: 1200px;
+    height: 100px;
+}
+
+.logo1 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: lightpink;
+}
+
+.logo1 img {
+    width: 115px;
+    height: 100px;
+    margin: 0 42px;
+} 
+
+.menu {
+    float: left;
+    width: 1000px;
+    height: 100px;
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    top: 25px;
+    left: 380px;
+    z-index: 2;
+}
+
+.main>li {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    background-color: cyan;
+}
+
+.sub>li {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: deepskyblue;
+}
+
+.main>li:hover >a {
+    background-color: darkblue; color: #fff;
+}
+
+.sub>li:hover >a {
+    background-color: darkcyan; color: #fff;
+}
+
+.sub {
+    display: none;
+}
+
+.img_s {
+    width: 1200px;
+    height: 300px;
+    background-color: darkturquoise;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.imglen {
+    width: 1200px;
+    height: 900px;
+}
+
+.imglen li {
+    width: 1200px;
+    height: 300px;
+    position: relative;
+}
+
+.imgtxt {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 1200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: #0000005d;
+    font-size: 19px;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+}
+
+.no {
+    float: left;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(243, 222, 106);
+}
+
+.tab1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.no ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 400px;
+    height: 160px;
+}
+
+.no li {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.gal {
+    float: left;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(253, 173, 213);
+}
+
+.tab2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(188, 233, 171);
+}
+
+.gal ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 400px;
+    height: 160px;
+}
+
+.gal li {
+    width: 100px;
+    height: 80px;
+    margin: 40px 15px;
+    float: left;
+}
+
+.gal li:hover {
+    opacity: 50%;
+}
+
+.ba {
+    float: left;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.ba li {
+    width: 400px;
+    height: 200px;
+}
+
+.batxt {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    top: 50px;
+    left: 0;
+    background-color: #05050570;
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #cf6565;
+}
+
+.bottom {
+    width: 1200px;
+    height: 100px;
+}
+
+.logo2 {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.logo2 img {
+    width: 115px;
+    height: 100px;
+    margin: 0 42px;
+} 
+
+.copy {
+    float: left;
+    width: 800px;
+    height: 100px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: cadetblue;
+}
+
+.sns {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(220, 235, 198);
+}
+
+.sns img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 20px 8px;
+}
+
+.popup {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(151, 228, 141);
+    display: none;
+}
+
+.p_title {
+    width: 400px;
+    height: 50px;
+}
+
+.p_body {
+    width: 400px;
+    height: 300px;
+}
+
+.p_bottom {
+    width: 400px;
+    height: 50px;
+}
+
+button {
+    float: right;
+}
